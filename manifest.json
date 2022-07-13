@@ -2,7 +2,7 @@
     "name": "Crypto Scam Detector",
     "version": "1.0.0",
     "description": "Detects when ur crypto is lacking",
-    "manifest_version": 1,
+    "manifest_version": 2,
     "author": "Chiko x Mihiro",
     "action":{
         "default_popup": "index.html",

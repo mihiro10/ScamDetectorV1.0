@@ -1,8 +1,8 @@
 body {
-  background-color: #f2f2f2;
+  background-color: rgba(33, 30, 30, 1);
   margin: 0px;
   font-family: tahoma;
-  color: #282828;
+  color: #f1ebeb;
 }
 
 .button {
@@ -80,13 +80,22 @@ li {
 }
 
 .nav-bar {
-  background: linear-gradient(-90deg, #84cf6a, #16c0b0);
-  height: 60px;
+  background: rgba(108, 100, 100, 1);
+  height: 100px;
   margin-bottom: 25px;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
+
+.vert-align {
+  display: table-cell;
+  height: 40px;
+  padding: 10px;
+  border: 3px dashed #1c87c9;
+  vertical-align: middle;
+} /*trying to allign text to vertical middle */
+
 
 p {
   font-size: 22px;
@@ -104,9 +113,15 @@ p {
   flex-wrap: wrap;
 }
 
-.product-image,
-.product-info {
-  width: 50%;
+.intro-image{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: none;
+}
+
+.product-image {
+  width: 20%;
 }
 
 .review-form {
