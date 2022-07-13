@@ -10,7 +10,12 @@
   </head>
   <body>
     <div id="app">
-      <div class="nav-bar"></div>
+      <div class="nav-bar">
+        <div class="vert-align">
+          <h2>Crypto Scam Detector</h2>
+        </div>
+      </div>
+      <intro-display></intro-display>
       <coin-display></coin-display>
       <coin-display></coin-display>
     </div>
@@ -18,8 +23,13 @@
     <!-- Import App -->
     <script src="./main.js"></script>
 
-    <!-- Import Components -->
-    <script src="./components/CoinDisplay.js"></script>
+    <!-- Import Intro-->
+    <script src="./Intro/intro.js"></script>
+
+
+    <!-- Import Defi Components -->
+    <script src="./Defi/CoinDisplay.js"></script>
+
 
     <!-- Mount App -->
     <script>
