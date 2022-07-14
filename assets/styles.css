@@ -91,9 +91,8 @@ li {
   display: table-cell;
   height: 40px;
   padding: 10px;
-  border: 3px dashed #1c87c9;
   vertical-align: middle;
-} /*trying to allign text to vertical middle */
+} /*trying to align text to vertical middle */
 
 
 p {
