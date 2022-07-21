@@ -24,8 +24,11 @@
       <button onclick= "location.href='exchanges.html'" type="button"> Exchanges</button>
       <button onclick= "location.href='protocols.html'" type="button"> Protocols</button>
       <button onclick= "location.href='currencies.html'" type="button"> Currencies</button>
+
+
+      <defi-intro></defi-intro>
       <coin-display></coin-display>
-      <coin-display></coin-display>
+
 
     </div>
 
@@ -38,11 +41,21 @@
 
     <!-- Import Defi Components -->
     <script src="./Defi/CoinDisplay.js"></script>
-
+    <script src="./Defi/defiIntro.js"></script>
 
     <!-- Mount App -->
     <script>
       const mountedApp = app.mount('#app')
     </script>
+
+    <!-- Import Iceberg font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+    
+    <!-- Import Oswald font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
   </body>
 </html>
