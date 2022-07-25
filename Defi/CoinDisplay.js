@@ -1,7 +1,9 @@
 app.component('coin-display',{
     template:
     /*html*/
-    `<div class="product-display">
+    `<div><img v-bind:src="image">
+    </div>
+    <div class="product-display">
         <div class="product-container">
              <div class="product-image">
                 <img v-bind:src="image">
@@ -21,7 +23,7 @@ app.component('coin-display',{
   data() {
     return {
         coin: 'Bitcoin',
-        image: './assets/images/Bitcoin.png',
+        image: './assets/images/Maker.png',
     }
 }
 })
