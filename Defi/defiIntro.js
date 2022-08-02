@@ -7,16 +7,35 @@ app.component('defi-intro',{
         <div class="white-line"></div>
         <p>The DeFi protocols with security breaches identified in the past 12 months are listed below</p>
         <div class="white-line"></div>
-        <p>TICKER SYMBOL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NAME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHAIN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; SECURITY BREACH: Y/N?</p>
+        <div class="product-container"> 
+            <div class="text">
+            <p>{{column1}} </p>
+            </div>
+            <div class="text">
+            <p>{{column2}} </p>
+            </div>
+            <div class="text">
+            <p>{{column3}} </p>
+            </div>
+            <div class="text">
+            <p>{{column4}} </p>
+            </div>
+        </div>
         <div class="s-white-line"></div>
         <defi-maker></defi-maker>
         <defi-uniswap></defi-uniswap>
+        <defi-aave></defi-aave>
+        <defi-curve_finance></defi-curve_finance>
     </div></center>`,
      
 
   data() {
     return {
         image: './assets/images/Defi_pic.jpg',
+        column1: 'TICKER SYMBOL',
+        column2: 'NAME',
+        column3: 'CHAIN',
+        column4: 'BREACH DETECTED?'
     }
 }
 })

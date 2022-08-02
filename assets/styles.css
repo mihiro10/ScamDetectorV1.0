@@ -123,11 +123,10 @@ p {
 }
 
 .product-container {
-  background-color: aqua;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 55%;
+  justify-content: start;
+  width: 50%;
   height: 60px;
   float: center; 
 }
@@ -140,12 +139,13 @@ p {
 }
 
 .product-image {
-  width: 10%;
+  width: 200px;
 }
 
 .image {
-  flex-basis: space-around;
-  float: left; 
+  display: flex;
+  width: 30px;
+  justify-content: center;
 }
 
 .review-form {
@@ -218,5 +218,14 @@ ul {
 
 .text {
   font-size: 20px;
-  padding-left: 20px;
+  text-align: center;
+  height: 60px;
+  width: 200px;
+}
+.text-filler {
+  font-size: 20px;
+  text-align: center;
+  height: 100px;
+  width: 60px;
+  background-color: red;
 }

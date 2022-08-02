@@ -1,4 +1,4 @@
-app.component('defi-maker',{
+app.component('defi-curve_finance',{
     template:
     /*html*/
     `<div class="product-container"> 
@@ -20,10 +20,10 @@ app.component('defi-maker',{
     </div> `,
   data() {
     return {
-        name: 'Maker',
-        image: './assets/images/Maker.png',
+        name: 'Curve Finance',
+        image: './assets/images/Curve_finance.png',
         chain: 'Ethereum',
-        security: 'Yes',
+        security: 'No',
     }
 }
 })

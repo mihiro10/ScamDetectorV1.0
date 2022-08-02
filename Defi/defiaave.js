@@ -1,4 +1,4 @@
-app.component('defi-maker',{
+app.component('defi-aave',{
     template:
     /*html*/
     `<div class="product-container"> 
@@ -20,10 +20,10 @@ app.component('defi-maker',{
     </div> `,
   data() {
     return {
-        name: 'Maker',
-        image: './assets/images/Maker.png',
-        chain: 'Ethereum',
-        security: 'Yes',
+        name: 'Aave',
+        image: './assets/images/Aave.png',
+        chain: 'Multichain',
+        security: 'No',
     }
 }
 })
